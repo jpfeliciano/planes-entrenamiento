@@ -20,5 +20,5 @@ export class RutinaEntity implements IRutina {
       onDelete: 'CASCADE',
     },
   )
-  planEntrenamiento: PlanEntrenamientoEntity;
+  planEntrenamiento?: PlanEntrenamientoEntity;
 }
